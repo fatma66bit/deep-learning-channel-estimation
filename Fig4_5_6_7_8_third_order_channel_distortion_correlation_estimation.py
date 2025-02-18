@@ -40,9 +40,9 @@ trainn=int(3e6)
 valsize=int(2e5)
 # testing data lengths 
 # number of UE location setups
-test1=1000
+test1=100
 # number of Monte Carlo trials for averaging in the CDF plots
-test2=1000
+test2=100
 # Third-order polynomial coefficients obtained by curve fitting to [25]
 polyCoef=np.array([[ 0.9798-0.0075*1j, -0.2419+0.0374*1j]])
 
