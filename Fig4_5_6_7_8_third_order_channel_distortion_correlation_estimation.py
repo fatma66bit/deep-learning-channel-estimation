@@ -35,9 +35,9 @@ backOff=np.power(10,0.7)
 # pilot matrix
 pilot=dft(K)
 # training data length
-trainn=int(3000)
+trainn=int(3e6)
 # validation data length
-valsize=int(200)
+valsize=int(2e5)
 # testing data lengths 
 # number of UE location setups
 test1=100
