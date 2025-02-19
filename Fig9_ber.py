@@ -406,3 +406,4 @@ plt.yticks([ 1e-8,1e-7, 1e-6, 1e-5 ,1e-4,1e-3, 1e-2, 1e-1])
 plt.tick_params(axis='both', which='major', labelsize=50)
 plt.legend((r'DuA-RZF (LMMSE)', r'DA-RZF (LMMSE)', r'DA-RZF (Deep Learning)',r'EW-DA-MMSE (Deep Learning)', \
             r'DA-RZF (Perfect CSI)', r'EW-DA-MMSE (Perfect CSI)'),ncol=2)
+plt.show()
